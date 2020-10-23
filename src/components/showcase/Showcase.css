@@ -1,0 +1,42 @@
+.showcase__container {
+	display: flex;
+	height: 500px;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: "Staatliches", sans-seriff;
+}
+
+.left__content {
+	position: relative;
+	height: inherit;
+}
+
+.left__content h1 {
+	font-size: 7rem;
+	position: absolute;
+	top: 80px;
+	line-height: 7rem;
+	color: #24303Cff;
+	text-shadow: -15px 12px 0px rgba(92, 139, 155, 0.8), -30px 24px 0px rgba(129, 200, 206, .5);
+}
+
+.right__content {
+	padding-left: 2rem;
+}
+
+.right__content h2 {
+	font-size: 2rem;
+	color: #24303c;
+	margin-bottom: 1rem;
+}
+
+.right__content a {
+	background: #24303c;
+	color: #81C8CEff;
+	text-decoration: none;
+	padding: .7rem 2rem;
+	font-size: 1.5rem;
+	letter-spacing: .3rem;
+}

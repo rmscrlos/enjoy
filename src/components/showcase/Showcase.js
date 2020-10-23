@@ -1,15 +1,19 @@
 import React from 'react'
+import "./Showcase.css"
+
 
 function Showcase() {
   return (
     <div className="showcase__container">
-      <div className="left__content">
-        <h1>Touch</h1>
-        <h1>Of</h1>
-        <h1>Heaven</h1>
-      </div>
-      <div className="right__content">
+  
 
+      <div className="left__content">
+        <h1>Touch Of Heaven</h1>
+      </div>
+
+      <div className="right__content">
+        <h2>Nov. 13th - 15th</h2>
+        <a href="#">More</a>
       </div>
       
     </div>
