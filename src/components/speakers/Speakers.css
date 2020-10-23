@@ -1,0 +1,16 @@
+.speakers {
+	width: 90%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+	padding: 3rem 2rem;
+	border-radius: 20px;
+	font-family: "Staatliches", sans-seriff;
+}
+
+.speakers h1 {
+	letter-spacing: .2rem;
+	font-size: 2.3rem;
+	color: #24303c;
+	border-bottom: 3px solid #81c8ce;
+	display: inline-block;
+}

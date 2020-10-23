@@ -1,6 +1,6 @@
 .showcase__container {
 	display: flex;
-	height: 500px;
+	height: 550px;
 	width: 80%;
 	margin: 0 auto;
 	justify-content: space-evenly;
@@ -24,6 +24,7 @@
 
 .right__content {
 	padding-left: 2rem;
+	padding-bottom: 2rem;
 }
 
 .right__content h2 {
@@ -39,4 +40,15 @@
 	padding: .7rem 2rem;
 	font-size: 1.5rem;
 	letter-spacing: .3rem;
+}
+
+/* image container */
+.image__container {
+	margin: 2rem 0;
+	padding: 0 2rem;
+}
+
+/* images */
+.imgs {
+	width: 250px;
 }
