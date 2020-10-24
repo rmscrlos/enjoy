@@ -12,7 +12,8 @@
 .nav__container h1 {
 	font-size: 3rem;
 	letter-spacing: .3rem;
-	color: #1B222Aff;
+	color: #24303c;
+	/* border-bottom: 3px solid #81c8ce; */
 }
 
 .nav__menu {
@@ -23,7 +24,7 @@
 	margin: 0 2rem;
 	background: #81C8CEff;
 	padding: .7rem 2rem;
-	color: #1B222Aff;
+	color: #24303c;
 	text-decoration: none;
 	font-size: 1.5rem;
 }
