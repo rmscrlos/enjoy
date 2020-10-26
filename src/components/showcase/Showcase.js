@@ -13,7 +13,7 @@ function Showcase() {
 
       <div className="right__content">
         <h2>Nov. 13th - 15th</h2>
-        <a href="#">More</a>
+        <a href="#schedule">More</a>
       </div>
       
     </div>
