@@ -28,6 +28,7 @@ function Schedule() {
           }
           { show === 'saturday' && <div className="saturday day">
             <h3>Saturday</h3>
+            <div className="ul__holder">
               <ul>
                 <p>9:00AM - Doors Open</p>
                 <p>10:00AM - Third Session</p>
@@ -36,8 +37,8 @@ function Schedule() {
               </ul>
 
               <ul>
-                <p>1:OOPM - Workshop (Evangelism Training)</p>
-                <p>1:3OPM - Panel (Evangelism Q&A)</p>
+                <p>1:30PM - Workshop (Evangelism Training)</p>
+                <p>2:00PM - Panel (Evangelism Q&A)</p>
               </ul>
 
               <ul>
@@ -46,6 +47,7 @@ function Schedule() {
                 <p>8:00PM - Sixth Session</p>
                 <p>8:45PM - Call for Action</p>
               </ul>
+              </div>
             </div>
           }
           {show === 'sunday' && <div className="sunday day">
