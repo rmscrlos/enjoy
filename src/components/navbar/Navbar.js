@@ -9,9 +9,9 @@ function Navbar() {
       <h1>Enjoy</h1>
       <div className="nav__menu">
         <ul>
-          <a href="#">sign up</a>
+          <a href="https://guestlist.co/events/665121">sign up</a>
         </ul>
-        <a href="#"><i class="fab fa-instagram icon"></i></a>
+        <a href="https://www.instagram.com/enjoymvt.fm/"><i class="fab fa-instagram icon"></i></a>
       </div>
     </div>
   )
