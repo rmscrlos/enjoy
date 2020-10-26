@@ -33,3 +33,11 @@
 	color: #81c8ce;
 	background: #24303c;
 }
+
+/* mobiles styles */
+@media screen and (max-width: 376px) {
+	.signup h2 {
+		text-align: center;
+		font-size: 3rem;
+	}
+}
