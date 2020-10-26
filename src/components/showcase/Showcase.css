@@ -52,3 +52,28 @@
 .imgs {
 	width: 250px;
 }
+
+/* Mobile styles */
+@media screen and (max-width: 376px) {
+	.showcase__container {
+		flex-direction: column;
+		margin-bottom: 3.5rem;
+	}
+
+	.left__content {
+		align-self: center;
+		margin-left: 1rem;
+		margin-bottom: 7rem;
+	}
+
+	.left__content h1 {
+		position: inherit;
+		margin: 0 auto;
+	}
+
+	.right__content {
+		text-align: center;
+		padding: 0;
+		margin-bottom: 3rem;
+	}
+}
