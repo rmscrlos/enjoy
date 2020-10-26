@@ -15,13 +15,28 @@ function Speakers() {
     speed: 3000,
     autoplaySpeed: 0,
     cssEase: "linear",
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 376,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          autoplay: true,
+          speed: 4000,
+          autoplaySpeed: 0,
+        }
+      }
+    ]
   }
 
   return (
     <div className="speakers" id="speak">
       <h1>Speakers</h1>
         <div className="image__container">
-          <Slider {...settings}>
+          <Slider {...settings} className="slider">
             <div>
               <img  className="imgs" src="../images/lineup.jpeg" alt=""/>
               </div>

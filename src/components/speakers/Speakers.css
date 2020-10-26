@@ -15,3 +15,16 @@
 	border-bottom: 3px solid #81c8ce;
 	display: inline-block;
 }
+
+@media screen and (max-width: 376px) {
+	.imgs {
+		width: 300px;
+		height: 300px;
+	}
+
+	.slider {
+		width: 140%;
+		position: relative;
+		right: 2.5rem;
+	}
+}
