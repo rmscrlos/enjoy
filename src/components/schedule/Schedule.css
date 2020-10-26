@@ -77,3 +77,55 @@
 	flex-flow: column wrap;
 	/* justify-content: space-between; */
 }
+
+@media screen and (max-width: 376px) {
+	.schedule__container {
+		flex-direction: column;
+	}
+
+	.days {
+		height: 10%;
+		flex-direction: row;
+		border-radius: 0rem;
+		width: 100%;
+	}
+
+	.days h2 {
+		font-size: 1rem;
+		border: none;
+		padding-left: 0rem;
+		padding-right: 1rem;
+		border-right: 2px solid #81c8ce;
+	}
+
+	.days h2:last-child {
+		padding-right: 0rem;
+	}
+
+	.day h3 {
+		font-size: 2rem;
+		margin-bottom: 0rem;
+	}
+
+	.day p {
+		font-size: 1rem;
+	}
+
+	.info {
+		width: 100%;
+	}
+
+	.day p {
+		font-size: 1.5rem;
+		line-height: 4.5rem;
+	}
+
+	.ul__holder {
+		flex-flow: column nowrap;
+		margin-bottom: 2rem;
+	}
+
+	.ul__holder ul p {
+		line-height: 1.1rem;
+	}
+}
