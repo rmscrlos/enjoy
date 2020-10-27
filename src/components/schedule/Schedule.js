@@ -33,7 +33,7 @@ function Schedule() {
                 <p>9:00AM - Doors Open</p>
                 <p>10:00AM - Third Session</p>
                 <p>11:00AM - Fourth Session</p>
-                <p>12:00AM - Lunch Break</p>
+                <p>12:00PM - Lunch Break</p>
               </ul>
 
               <ul>
