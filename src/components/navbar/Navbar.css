@@ -54,3 +54,16 @@
 		margin: 0;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.nav__container {
+		width: 100%;
+	}
+	.nav__menu ul a {
+		display: none;
+	}
+
+	.icon {
+		margin: 0;
+	}
+}

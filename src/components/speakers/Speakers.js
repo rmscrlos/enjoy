@@ -28,6 +28,18 @@ function Speakers() {
           speed: 4000,
           autoplaySpeed: 0,
         }
+      },
+      {
+          breakpoint: 501,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+            autoplay: true,
+            speed: 4000,
+            autoplaySpeed: 0,
+        }
       }
     ]
   }

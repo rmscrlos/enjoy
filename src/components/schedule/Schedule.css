@@ -129,3 +129,53 @@
 		line-height: 1.1rem;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.schedule__container {
+		flex-direction: column;
+	}
+
+	.days {
+		height: 10%;
+		flex-direction: row;
+		border-radius: 0rem;
+		width: 100%;
+	}
+
+	.days h2 {
+		font-size: 1rem;
+		text-align: center;
+		border: none;
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+		border-right: 2px solid #81c8ce;
+		align-self: center;
+	}
+
+	.day h3 {
+		font-size: 2rem;
+		margin-bottom: 0rem;
+	}
+
+	.day p {
+		font-size: 1rem;
+	}
+
+	.info {
+		width: 100%;
+	}
+
+	.day p {
+		font-size: 1.5rem;
+		line-height: 4.5rem;
+	}
+
+	.ul__holder {
+		flex-flow: column nowrap;
+		margin-bottom: 2rem;
+	}
+
+	.ul__holder ul p {
+		line-height: 1.1rem;
+	}
+}

@@ -77,3 +77,28 @@
 		margin-bottom: 3rem;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.showcase__container {
+		flex-direction: column;
+		margin-bottom: 3.5rem;
+	}
+
+	.left__content {
+		align-self: center;
+		margin-left: 2rem;
+		margin-bottom: 7rem;
+	}
+
+	.left__content h1 {
+		font-size: 8rem;
+		position: inherit;
+		margin: 0 auto;
+	}
+
+	.right__content {
+		text-align: center;
+		padding: 0;
+		margin-bottom: 3rem;
+	}
+}
